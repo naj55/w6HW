@@ -1,0 +1,57 @@
+@font-face {
+  font-family: GE_SS_Two_Light;
+  src: url(./assets/font/GE_SS_Two_Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: GE_SS_Two_Light;
+
+}
+
+h1 {
+  color: #4E3797;
+}
+
+.myNav {
+  margin-top: 10px;
+}
+
+footer {
+  height: 60%;
+  background-color: #4E3797;
+  width: 100%;
+}
+
+.Courses-d {
+  border-right: 7.5px solid #91d8d1;
+  height: 100%;
+  width: 20%;
+  border-radius: 15px;
+  box-shadow: 5px 10px;
+  padding: 20px;
+  text-align: right;
+}
+
+.-d {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  width: 100%;
+  padding: 80px;
+  height: 100%;
+  margin-top: 80px;
+
+}
+
+.btn {
+  background-color: #91d8d1;
+  text-align: left;
+}
+
+.pfooter {
+  color: #fff;
+}
